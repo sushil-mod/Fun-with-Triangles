@@ -1,27 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Is it Triangle</title>
 </head>
+
 <body>
-    <nav>
-        <a href="index.html">Is a Triangle ?</a>
-        <a href="quiz.html">Quiz</a>
-        <a href="hypotenuse.html">Calculate Hypotenuse</a>
-        <a href=""></a>
-    </nav>
-    <h1>Is a Triangle ?</h1>
-    <label for="angleOne">First Angle</label>
-    <input type="text" class="angles-of-triangle">
-    <label for="angleSecond">Second Angle</label>
-    <input type="text" class="angles-of-triangle">
-    <label for="AngleThird">Third Angle</label>
-    <input type="text" class="angles-of-triangle">
-    <button id="check-triangle">check </button>
-    <div id="output"></div>
+    <header>
+        <h1>Triangles Fun</h1>
+        <nav>
+            <a href="index.html">IsTriangle?</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="hypotenuse.html">Calculate Hypotenuse</a>
+            <a href="area.html">Area</a>
+        </nav>
+    </header>
+    <main class="angles-triangles-main">
+        <h1>Is a Triangle ?</h1>
+        <div><label class="input-label" for="angleOne"> <p>First Angle</p> </label>
+            <input type="text" class="input-text angles-of-triangle"></div>
+        <div><label class="input-label" for="angleSecond"> <p>Second Angle</p> </label>
+            <input type="text" class="input-text angles-of-triangle"></div>
+        <div><label class="input-label" for="AngleThird"> <p>Third Angle</p> </label>
+            <input type="text" class="input-text angles-of-triangle"></div>
+        <div><button class="btn-check" id="check-triangle">check </button></div>
+
+        <div class="outputbox" id="output"></div>
+    </main>
+    <footer>
+        <ul class="list-unordered inline-list">
+            <li>
+                <a class="links" href="https://github.com/sushil-mod/" target="_blank">
+                    <img src="images/github.svg" alt="github" />
+                </a>
+            </li>
+            <li>
+                <a class="links" href="https://www.instagram.com/sushil_vwarrior" target="_blank">
+                    <img src="images/instagram.svg" alt="instagram" />
+                </a>
+            </li>
+        </ul>
+    </footer>
+
     <script src="./triangle.js"></script>
 </body>
+
 </html>

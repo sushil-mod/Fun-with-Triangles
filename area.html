@@ -1,19 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Area of Triangle</title>
 </head>
+
 <body>
-    <h1>Area of Triangle</h1>
-    <label>Base = </label>
-    <input type="number" class="sides-of-triangle">
-    <label >Height =  </label>
-    <input type="number" class="sides-of-triangle">
-    <button id="calulate-area">calculate</button>
-    <div id="output"></div>
+    <header>
+        <h1>Triangles Fun</h1>
+        <nav>
+            <a href="index.html">IsTriangle?</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="hypotenuse.html">Calculate Hypotenuse</a>
+            <a href="area.html">Area</a>
+        </nav>
+    </header>
+    <main class="calculate-area-main">
+        <h1>Area of Triangle</h1>
+
+        <label class="input-label" > <p>Base = </p> <input  class="input-text" type="number" class="sides-of-triangle"></label>
+        
+        <label class="input-label" > <p>Height =</p> <input  class="input-text" type="number" class="sides-of-triangle"> </label>
+        
+        <button class="btn-check"  id="calulate-area">calculate</button>
+        <div class="output calculate-area-output" id="output"></div>
+    </main>
+    <footer>
+        <ul class="list-unordered inline-list">
+            <li>
+                <a class="links" href="https://github.com/sushil-mod/" target="_blank">
+                    <img src="images/github.svg" alt="github" />
+                </a>
+            </li>
+            <li>
+                <a class="links" href="https://www.instagram.com/sushil_vwarrior" target="_blank">
+                    <img src="images/instagram.svg" alt="instagram" />
+                </a>
+            </li>
+        </ul>
+
+
+</footer>
+
     <script src="./area.js"></script>
 </body>
+
 </html>

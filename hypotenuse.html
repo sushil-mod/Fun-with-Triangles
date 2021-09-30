@@ -1,19 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Hypotenuse</title>
 </head>
+
 <body>
-    <h1>Calculate Hypotenuse</h1>
-    <label > a = </label>
-    <input type="number" class="side-input">
-    <label > b = </label>
-    <input type="number" class="side-input">
-    <button id="button-Hypotenuse">Calculate </button>
-    <div id= "output"></div>
+    <header>
+        <h1>Triangles Fun</h1>
+        <nav>
+            <a href="index.html">IsTriangle?</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="hypotenuse.html">Calculate Hypotenuse</a>
+            <a href="area.html">Area</a>
+        </nav>
+    </header>
+    <main class="calculate-hypo-main">
+        <h1>Calculate Hypotenuse</h1>
+        <label class="input-label">
+            <p> Enter base of traingle = </p> <input type="number" class="input-text  side-input">
+        </label>
+
+        <label class="input-label">
+            <p> Enter height of triangle  = </p><input type="number" class="input-text side-input">
+        </label>
+
+        <button class="btn-check" id="button-Hypotenuse">Calculate </button>
+        <div id="output"></div>
+    </main>
+    <footer>
+        <ul class="list-unordered inline-list">
+            <li>
+                <a class="links" href="https://github.com/sushil-mod/" target="_blank">
+                    <img src="images/github.svg" alt="github" />
+                </a>
+            </li>
+            <li>
+                <a class="links" href="https://www.instagram.com/sushil_vwarrior" target="_blank">
+                    <img src="images/instagram.svg" alt="instagram" />
+                </a>
+            </li>
+        </ul>
+
+
+</footer>
     <script src="./hypotenuse.js"></script>
 </body>
+
 </html>
