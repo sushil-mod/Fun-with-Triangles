@@ -136,7 +136,13 @@ img {
     text-align: center;
   }
   
-  .questions {
+  .questions { 
+
+    box-sizing: border-box;
+    background-color:  #EDF2F5;
+    padding: 1rem;
+    border-radius: 10px;
+
     text-align: left;
     width: 85%;
     margin: 1rem auto;
@@ -146,4 +152,8 @@ img {
   
   .question-container p {
     margin: 1rem 0;
+  }
+
+  .quiz-list{
+    
   }
