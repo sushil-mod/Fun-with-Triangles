@@ -24,7 +24,7 @@ li {
   list-style: none;
 }
 
-/* Header */
+
 
 header {
   padding: 1rem;
@@ -45,7 +45,7 @@ nav > a {
   padding: 0 0.5rem;
 }
 
-/* Main */
+
 
 main {
   margin: 0 0 7rem;
@@ -55,7 +55,7 @@ main h1 {
   margin: 1rem;
 }
 
-/*  Input */
+
 
 .input-label {
   font-size: larger;
@@ -69,6 +69,7 @@ main h1 {
 }
 
 .input-text {
+ 
   font-size: 14px;
   outline: #fff;
   padding: 0.6rem 1rem;
@@ -97,7 +98,7 @@ main h1 {
   margin: 1rem;
 }
 
-/* Footer */
+
 
 footer {
   text-align: center;
@@ -136,6 +137,7 @@ img {
   }
   
   .questions {
+    text-align: left;
     width: 85%;
     margin: 1rem auto;
     font-size: larger;
